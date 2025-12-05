@@ -7,20 +7,6 @@ export const mockData = {
       "order": 0,
       "sites": [
         {
-          "id": "site-1752649007053",
-          "name": "BeJson",
-          "url": "https://www.bejson.com/",
-          "description": "工具大全",
-          "icon": "/sitelogo/www.bejson.com.ico"
-        },
-        {
-          "id": "linux-do",
-          "name": "Linux.do",
-          "url": "https://linux.do",
-          "description": "Linux技术社区，Peace and Love",
-          "icon": "/sitelogo/linux.do.ico"
-        },
-        {
           "id": "site-1752857783656",
           "name": "OpenAI",
           "url": "https://chatgpt.com",
@@ -35,11 +21,39 @@ export const mockData = {
           "icon": "/sitelogo/github.com.ico"
         },
         {
-          "id": "curlconverter",
-          "name": "curl converter",
-          "url": "https://curlconverter.com/",
-          "description": "curl命令转换工具",
-          "icon": "/sitelogo/curlconverter.com.ico"
+          "id": "site-1764935304516",
+          "name": "哔哩哔哩",
+          "url": "https://www.bilibili.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.bilibili.com"
+        },
+        {
+          "id": "site-1764935341231",
+          "name": "Cloudflare",
+          "url": "https://dash.cloudflare.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/dash.cloudflare.com"
+        },
+        {
+          "id": "site-1764935361773",
+          "name": "Steam",
+          "url": "https://store.steampowered.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/store.steampowered.com"
+        },
+        {
+          "id": "site-1764935391358",
+          "name": "163邮箱",
+          "url": "https://mail.163.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/mail.163.com"
+        },
+        {
+          "id": "site-1764935427566",
+          "name": "manus",
+          "url": "https://manus.im",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/manus.im"
         }
       ]
     },
@@ -197,7 +211,7 @@ export const mockData = {
       "id": "community",
       "name": "社区论坛",
       "icon": "👥",
-      "order": 6,
+      "order": 4,
       "sites": [
         {
           "id": "stackoverflow",
@@ -240,7 +254,7 @@ export const mockData = {
       "id": "design",
       "name": "设计工具",
       "icon": "🎨",
-      "order": 4,
+      "order": 5,
       "sites": [
         {
           "id": "figma",
@@ -269,70 +283,6 @@ export const mockData = {
           "url": "https://www.adobe.com/products/xd.html",
           "description": "用户体验设计工具",
           "icon": "/sitelogo/www.adobe.com.ico"
-        }
-      ]
-    },
-    {
-      "id": "finance",
-      "name": "财经投资",
-      "icon": "💰",
-      "order": 5,
-      "sites": [
-        {
-          "id": "binance",
-          "name": "币安",
-          "url": "https://www.binance.com",
-          "description": "加密货币交易平台",
-          "icon": "/sitelogo/www.binance.com.ico"
-        },
-        {
-          "id": "okx",
-          "name": "OKX",
-          "url": "https://www.okx.com",
-          "description": "数字资产交易服务平台",
-          "icon": "/sitelogo/www.okx.com.ico"
-        },
-        {
-          "id": "bitget",
-          "name": "Bitget",
-          "url": "https://www.bitget.com",
-          "description": "全球化数字资产交易服务商",
-          "icon": "/sitelogo/www.bitget.com.ico"
-        },
-        {
-          "id": "tradingview",
-          "name": "TradingView",
-          "url": "https://cn.tradingview.com",
-          "description": "专业金融图表和交易平台",
-          "icon": "/sitelogo/cn.tradingview.com.ico"
-        },
-        {
-          "id": "tonghuashun",
-          "name": "同花顺",
-          "url": "https://www.10jqka.com.cn",
-          "description": "专业股票软件及金融信息服务",
-          "icon": "/sitelogo/www.10jqka.com.cn.ico"
-        },
-        {
-          "id": "xueqiu",
-          "name": "雪球",
-          "url": "https://xueqiu.com",
-          "description": "聪明的投资者都在这里",
-          "icon": "/sitelogo/xueqiu.com.ico"
-        },
-        {
-          "id": "coinbase",
-          "name": "Coinbase",
-          "url": "https://www.coinbase.com",
-          "description": "美国合规加密货币交易平台",
-          "icon": "/sitelogo/www.coinbase.com.ico"
-        },
-        {
-          "id": "futu",
-          "name": "富途牛牛",
-          "url": "https://www.futunn.com",
-          "description": "港美股交易软件",
-          "icon": "/sitelogo/www.futunn.com.ico"
         }
       ]
     },
@@ -445,42 +395,69 @@ export const mockData = {
       ]
     },
     {
-      "id": "office",
-      "name": "办公协作",
-      "icon": "💼",
+      "id": "finance",
+      "name": "财经投资",
+      "icon": "💰",
       "order": 9,
       "sites": [
         {
-          "id": "notion",
-          "name": "Notion",
-          "url": "https://www.notion.so",
-          "description": "全能工作空间",
-          "icon": "/sitelogo/www.notion.so.ico"
+          "id": "binance",
+          "name": "币安",
+          "url": "https://www.binance.com",
+          "description": "加密货币交易平台",
+          "icon": "/sitelogo/www.binance.com.ico"
         },
         {
-          "id": "slack",
-          "name": "Slack",
-          "url": "https://slack.com",
-          "description": "团队协作工具",
-          "icon": "/sitelogo/slack.com.ico"
+          "id": "okx",
+          "name": "OKX",
+          "url": "https://www.okx.com",
+          "description": "数字资产交易服务平台",
+          "icon": "/sitelogo/www.okx.com.ico"
         },
         {
-          "id": "trello",
-          "name": "Trello",
-          "url": "https://trello.com",
-          "description": "项目管理工具",
-          "icon": "/sitelogo/trello.com.ico"
+          "id": "bitget",
+          "name": "Bitget",
+          "url": "https://www.bitget.com",
+          "description": "全球化数字资产交易服务商",
+          "icon": "/sitelogo/www.bitget.com.ico"
         },
         {
-          "id": "feishu",
-          "name": "飞书",
-          "url": "https://www.feishu.cn",
-          "description": "企业协作平台",
-          "icon": "/sitelogo/www.feishu.cn.ico"
+          "id": "tradingview",
+          "name": "TradingView",
+          "url": "https://cn.tradingview.com",
+          "description": "专业金融图表和交易平台",
+          "icon": "/sitelogo/cn.tradingview.com.ico"
+        },
+        {
+          "id": "tonghuashun",
+          "name": "同花顺",
+          "url": "https://www.10jqka.com.cn",
+          "description": "专业股票软件及金融信息服务",
+          "icon": "/sitelogo/www.10jqka.com.cn.ico"
+        },
+        {
+          "id": "xueqiu",
+          "name": "雪球",
+          "url": "https://xueqiu.com",
+          "description": "聪明的投资者都在这里",
+          "icon": "/sitelogo/xueqiu.com.ico"
+        },
+        {
+          "id": "coinbase",
+          "name": "Coinbase",
+          "url": "https://www.coinbase.com",
+          "description": "美国合规加密货币交易平台",
+          "icon": "/sitelogo/www.coinbase.com.ico"
+        },
+        {
+          "id": "futu",
+          "name": "富途牛牛",
+          "url": "https://www.futunn.com",
+          "description": "港美股交易软件",
+          "icon": "/sitelogo/www.futunn.com.ico"
         }
       ]
     }
   ],
-  "title": "猫猫导航🐱",
-  "_fileSha": "b03d0407ec06ac7f254abf6645ac0425a8e74a92"
+  "title": "猫猫导航🐱"
 }
